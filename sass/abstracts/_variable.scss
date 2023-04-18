@@ -1,0 +1,29 @@
+
+// ### Primary
+
+$blue: hsl(246, 80%, 60%);
+$work: hsl(15, 100%, 70%);
+$play: hsl(195, 74%, 62%);
+$study: hsl(348, 100%, 68%);
+$exercise: hsl(145, 58%, 55%);
+$social: hsl(264, 64%, 52%);
+$selfCare: hsl(43, 84%, 65%);
+
+// ### Neutral
+
+$veryDarkblue: hsl(226, 43%, 10%);
+$darkBlue: hsl(235, 46%, 20%);
+$desaturatedBlue: hsl(235, 45%, 61%);
+$paleBlue: hsl(236, 100%, 87%);
+
+// ### Font
+
+$ff: 'Rubik', sans-serif ; $ff-sign: 'Sedgwick Ave Display', cursive;
+$fs: 18px;
+$fw-1: 300; $fw-2: 400; $fw-3: 500;
+
+
+
+.main__container:has(.main__chart__menu:hover) .main__chart {
+    background-color:  $darkBlue;
+}

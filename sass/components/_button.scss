@@ -1,0 +1,15 @@
+
+.btn {
+    color: $desaturatedBlue;
+    background-color: transparent;
+    border: none; 
+
+    &:hover {
+        color: $paleBlue;
+        cursor: pointer;
+    }
+}
+
+.activeBtn {
+    color:$paleBlue;
+}
